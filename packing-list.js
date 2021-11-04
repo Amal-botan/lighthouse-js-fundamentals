@@ -9,3 +9,10 @@ for (let i = 0; i < packingList.length; i++) {
 }
 
 
+//You can also use while loop too and get the same result
+console.log("Kitchen stuff to pack:");
+let i = 0;
+while (i < packingList.length) {
+  console.log(packingList[i]);
+  i++;
+}
